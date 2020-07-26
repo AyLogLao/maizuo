@@ -1,0 +1,100 @@
+{
+  "id": "1967494",
+  "name": "maizuo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "372101",
+      "name": "cc-arrow-down-circle",
+      "font_class": "cc-arrow-down-circle",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "372104",
+      "name": "cc-arrow-left-circle",
+      "font_class": "cc-arrow-left-circle",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "372107",
+      "name": "cc-arrow-right-circle",
+      "font_class": "cc-arrow-right-circle",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "372110",
+      "name": "cc-arrow-up-circle",
+      "font_class": "cc-arrow-up-circle",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "2510085",
+      "name": "error",
+      "font_class": "error",
+      "unicode": "e766",
+      "unicode_decimal": 59238
+    },
+    {
+      "icon_id": "722171",
+      "name": "arrow-left",
+      "font_class": "previewleft",
+      "unicode": "e75b",
+      "unicode_decimal": 59227
+    },
+    {
+      "icon_id": "722172",
+      "name": "arrow-right",
+      "font_class": "previewright",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    },
+    {
+      "icon_id": "974305",
+      "name": "arrow-bottom",
+      "font_class": "arrowbottom",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "1368572",
+      "name": "arrow-top",
+      "font_class": "arrow-top",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "10043890",
+      "name": "Search",
+      "font_class": "Search",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "1196861",
+      "name": "film",
+      "font_class": "film",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1555846",
+      "name": "cinema",
+      "font_class": "cinema",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "5458001",
+      "name": "me",
+      "font_class": "me",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    }
+  ]
+}

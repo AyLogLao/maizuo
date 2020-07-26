@@ -2,3 +2,175 @@
     margin:0;
     padding:0;
 }
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #191a1b;
+}
+
+ul {
+    list-style: none;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    height: 43px;
+    line-height: 43px;
+    font-size: 18px;
+}
+
+#title .city{
+    position:  absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    padding-left: 18px;
+}
+
+#title .city::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 53px;
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid #000;
+    border-bottom:1px solid #000;
+    transform: rotate(-45deg);
+}
+
+/* header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+} */
+
+header ul{
+    display: flex;
+    justify-content: center;
+}
+
+header li{
+    flex: 1;
+    height: 48px;
+    border-top: 1px solid #e3e3e4;
+    border-bottom: 1px solid #f9f9f9;
+    text-align: center;
+    line-height: 48px;
+}
+
+header a.active{
+    color: #f98e5e;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #f98e5e;
+}
+
+#list{
+    margin: 50px 0;
+}
+
+#list li{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+#list .img{
+    width: 66px;
+    height: 94px;
+    margin: 17px 10px 15px 17px;
+}
+
+#list .img>img{
+    width: 100%;
+}
+
+#list li>div:nth-child(2){
+    flex: 1;
+    width: 40%;
+}
+
+#list li .actors{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+#list h3{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+}
+#list p{
+    font-size: 14px;
+    color: #797d82;
+}
+
+#list p .score{
+    color: #ffb232;
+}
+#list li div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#list li a{
+    width: 48px;
+    height: 24px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #ff5f61;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #ffaf8b;
+    border-radius: 2px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#tabbar{
+    display: flex;
+    background-color: #fff;
+    border-top: 1px solid #f9f9f9;
+    text-align: center;
+}
+
+#tabbar li{
+    flex: 1;
+    height: 48px;
+    padding-top: 3px;
+}
+
+
+#tabbar li.active {
+    color: #ff7638;
+}
+
+#tabbar .icon-film {
+    font-size: 20px;
+}
+
+#tabbar .icon-cinema,
+#tabbar .icon-me {
+    font-size: 22px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts/iconfont.css">
+    <title>详情页</title>
+    <style>
+        *{padding:0;margin:0;}
+        html,body{width:100%;height:100%;}
+        ul{list-style: none;}
+        img{display:block;}
+        a{text-decoration:none;}
+        #detail{height:100%;background-color: #f4f4f4;}
+        #detail .bg{height:210px;background:url(images/animal.jpg) no-repeat;background-size: 100%;padding: 6px;}
+        #detail .bg .icon-previewleft{display:block;width:30px;height: 30px;border-radius:15px;font-size: 26px;color: #000;background-color: #d9ccc5;text-align: center;line-height: 30px;}
+
+        #top{display: flex; justify-content: flex-start;height: 50px;line-height: 50px;background-color: #fff;}
+        #top .title{flex:1;text-align: center;}
+        #top .icon-previewleft{font-size: 26px;margin-left: 10px;}
+
+        #desc{padding: 18px 0 0 14px;position: relative; background-color: #fff;}
+        #desc h3{font-weight: 400;}
+        #desc p{font-size: 14px;color: #797d82;margin: 3px 0;}
+        #desc .score{position: absolute;top: 10px; right: 10px;color:#ffb841;font-size: 16px;}
+        #desc .info{height: 40px;overflow: hidden;text-overflow: ellipsis;margin-top: 10px;}
+
+        #actors{margin-top: 10px;padding: 15px;background-color: #fff;height: 200px;}
+        #actors h3{font-weight: 400;font-size: 16px;}
+
+        #photoes{margin-top: 10px;padding: 15px;background-color: #fff;height: 200px;display: flex;justify-content: space-between;margin-bottom: 60px;}
+        #photoes h3{font-weight: 400;font-size: 16px;}
+        #photoes span{font-size: 14px; color:#797d82;}
+
+        #buy{position: fixed;width:100%;height:50px;line-height:50px;background-color:#ff5f16;color:#fff;left:0;bottom:0;text-align: center;}
+    </style>
+</head>
+<body>
+    <div id="detail">
+        <div class="bg">
+            <i class="iconfont icon-previewleft"></i>
+        </div>
+        <!-- <div id="top">
+            <i class="iconfont icon-previewleft"></i>
+            <div class="title">疯狂动物城</div>
+        </div> -->
+        <div id="desc">
+            <h3>疯狂动物城</h3>
+            <span class="score">2分</span>
+            <p>动画 | 动作 | 冒险</p>
+            <p>2020-07-24 上映</p>
+            <p>美国 | 109分钟</p>
+            <p class="info">故事发生在一个所有哺乳类动物和谐共存的美好世界中，兔子朱迪（金妮弗·古德温 Ginnifer Goodwin 配音）从小就梦想着能够成为一名惩恶扬善的刑警，凭借着智慧和努力，朱迪成功的从警校中毕业进入了疯狂动物城警察局，殊不知这里是大型肉食类动物的领地，作为第一只，也是唯一的小型食草类动物，朱迪会遇到怎样的故事呢？ 近日里，城中接连发生动物失踪案件，就在全部警员都致力于调查案件真相之时，朱迪却被局长（伊德瑞斯·艾尔巴 Idris Elba 配音）发配成为了一名无足轻重的交警。某日，正在执勤的兔子遇见了名为尼克（杰森·贝特曼 Jason Bateman 配音）的狐狸，两人不打不相识，之后又误打误撞的接受了寻找失踪的水獭先生的任务，如果不能在两天之内找到水獭先生，朱迪就必须自愿离开警局。朱迪找到了尼克，两人联手揭露了一个隐藏在疯狂动物城之中的惊天秘密。</p>
+        </div>
+
+        <div id="actors">
+            <h3>演职人员</h3>
+        </div>
+        <div id="photoes">
+            <h3>剧照</h3>
+            <span>全部(5)<i class="iconfont icon-previewright"></i></span>
+        </div>
+        <div id="buy">选座购票</div>
+    </div>
+
+</body>
+</html>

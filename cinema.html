@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts//iconfont.css">
+    <title>影院</title>
+    <style>
+        *{padding: 0;margin: 0;}
+        html,body{width: 100%;height: 100%;font-size: 16px;}
+        ul{list-style: none;}
+        a{text-decoration: none;}
+        img{display:block;}
+        header{position:fixed;top:0;left:0;width:100%;background-color: #fff;}
+        #cinema{height: 100%;}
+        #cinema .icon-arrowbottom{font-size: 12px;}
+        #top{display: flex; justify-content: flex-start;height: 44px; line-height: 44px;border-bottom: 1px solid #f9f9f9;padding: 0 15px;}
+        #top>div:nth-child(1){font-size: 14px;}
+        #top>div:nth-child(2){flex:1;text-align: center;}
+        #top .icon-Search{font-size: 24px; color: #6e6e6f;}
+
+        #nav{display:flex;justify-content:space-between; height:49px;border-bottom:1px solid #f9f9f9;line-height:49px;font-size: 14px;}
+        #nav>div{flex:1;text-align:center;}
+
+        #cinemas{margin-top:100px;margin-bottom:50px;}
+        #cinemas li{font-size: 14px; padding: 20px 15px 17px 15px;border-bottom:1px solid #f9f9f9;}
+        #cinemas h3{font-size: 16px;font-weight:400;}
+        #cinemas li>div{display:flex;justify-content:space-between;}
+        #cinemas li>div:nth-child(2){color:#797d82;margin-top:12px;}
+        #cinemas li .price{color:#ff5f16;}
+        #cinemas li .address{width:66%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+        footer{position: fixed;left: 0;bottom: 0;width: 100%;}
+        #tabbar{ display: flex;background-color: #fff; border-top: 1px solid #f9f9f9;text-align: center;}
+        #tabbar li{ flex: 1;height: 48px; padding-top: 3px;}
+        #tabbar li.active { color: #ff7638; }
+        #tabbar .icon-film { font-size: 20px; }
+        #tabbar .icon-cinema,#tabbar .icon-me {font-size: 22px;}
+    </style>
+</head>
+<body>
+    <div id="cinema">
+        <header>
+            <div id="top">
+                <div>广州 <i class="iconfont icon-arrowbottom"></i></div>
+                <div>电影</div>
+                <div><i class="iconfont icon-Search"></i></div>
+            </div>
+            <div id="nav">
+                <div>全城 <i class="iconfont icon-arrowbottom"></i></div>
+                <div>APP订票 <i class="iconfont icon-arrowbottom"></i></div>
+                <div>最近去过 <i class="iconfont icon-arrowbottom"></i></div>
+            </div>
+        </header>
+        <div id="cinemas">
+            <ul>
+                <li>
+                    <div>
+                        <h3>万达广场店1</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>万达广场店</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>万达广场店</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>万达广场店</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>万达广场店</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>万达广场店</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>万达广场店</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>万达广场店</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>万达广场店</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>万达广场店</h3>
+                        <span class="price">¥ 45 起</span>
+                    </div>
+                    <div>
+                        <span class="address">广东省广州市海珠区广州大道南978号601铺11111111111</span>
+                        <span>距离未知</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <ul id="tabbar">
+                <li class="active">
+                    <i class="iconfont icon-film"></i>
+                    <p>电影</p>
+                </li>
+                <li>
+                    <i class="iconfont icon-cinema"></i>
+                    <p>影院</p>
+                </li>
+                <li>
+                    <i class="iconfont icon-me"></i>
+                    <p>我的</p>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+</html>
